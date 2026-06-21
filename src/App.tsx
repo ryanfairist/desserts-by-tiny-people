@@ -1,3 +1,6 @@
+import twoGirls from './assets/L-R-Bake-Sale_under_100kb.webp'
+
+
 function App() {
   return (
     <div className="min-h-screen bg-cream text-truffle-800">
@@ -28,6 +31,13 @@ function App() {
           </div>
         </div>
       </header>
+      <section className="mx-auto opacity-70">
+        <img
+          src={twoGirls}
+          alt="Homemade treats made by Lisa and Rebekah bake sale"
+          className = "w-full h-auto rounded-3xl shadow-lg"
+        />
+      </section>
     </div>
   )
 }
