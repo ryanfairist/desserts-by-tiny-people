@@ -7,7 +7,7 @@ function App() {
     <div className ="min-h-screen bg-cream text-truffle-800">
       <Routes>
         <Route path="/" element= {<Home />} />
-        <Route path="/Menu" element= {<menu />} />
+        <Route path="/menu" element= {<Menu />} />
       </Routes>
     </div>
   )
