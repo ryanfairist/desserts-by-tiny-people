@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <header className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-peach-100 via-cream to-cream" />
+        <div className="absolute inset-0 bg-linear-to-b from-peach-100 via-cream to-cream" />
         <div className="absolute -top-24 h-72 w-72 rounded-full bg-sage-100 opacity-70 blur-3xl" />
         <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-peach-300/40 blur-3xl" />
 
